@@ -8,7 +8,9 @@ You can pull from GitHub with
 You can find the final version of different tutorial code in different folders.
 
 #### 00 Base Theme
-[Link to this folder][1]
-This is the code for a minimum functioning theme in WordPress.  All other tutorials start from this code as their baseline.
+Link: [Theme Folder][1]
+Desciption: This is the code for a minimum functioning theme in WordPress.  All other tutorials start from this code as their baseline.
+Tutorial: [Setting Up WordPress Tutorial Environment][2]
 
 [1]: 00__Base_Theme/tutorial-theme
+[2]: https://esbportfolio.com/2023/07/15/setting-up-wordpress-tutorial-environment/
