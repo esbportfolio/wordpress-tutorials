@@ -9,7 +9,9 @@ You can find the final version of different tutorial code in different folders.
 
 #### 00 Base Theme
 Link: [Theme Folder][1]
+
 Desciption: This is the code for a minimum functioning theme in WordPress.  All other tutorials start from this code as their baseline.
+
 Tutorial: [Setting Up WordPress Tutorial Environment][2]
 
 [1]: 00__Base_Theme/tutorial-theme
