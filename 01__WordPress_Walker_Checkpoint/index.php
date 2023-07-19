@@ -58,7 +58,9 @@ function get_header_menu(int $base_indent) {
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="toggle-menu">
+<!-- Begin get_header_menu -->
 <?php echo get_header_menu(5); ?>
+<!-- End get_header_menu -->
 				</div>
 				</button>
 			</div>
