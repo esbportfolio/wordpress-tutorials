@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 // Get the site logo if it's present, or the site title if it isn't
 function get_title_or_logo_link() {
 	// If a custom logo exists:
