@@ -37,8 +37,12 @@ function get_header_identity_link() {
 	
 }
 
-function get_header_menu(int $base_indent) {
-	return $base_indent;
+class HeaderLinks {
+	
+	function __construct(int $base_indent) {
+		echo $base_indent;
+	}
+	
 }
 
 ?>
@@ -53,10 +57,14 @@ function get_header_menu(int $base_indent) {
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
-				<?php echo get_header_identity_link(); ?>
-<!-- Begin get_header_menu -->
-<?php echo get_header_menu(5); ?>
-<!-- End get_header_menu -->
+				<?php echo get_header_identity_link() . "\n"; ?>
+<!-- Begin getting header links -->
+<?php
+
+$header_links = new HeaderLinks('5');
+
+?>
+<!-- End getting header links -->
 				</button>
 			</div>
 		</nav>
