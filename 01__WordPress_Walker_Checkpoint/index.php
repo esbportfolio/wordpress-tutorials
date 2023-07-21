@@ -61,7 +61,7 @@ class HeaderLinks {
 <!-- Begin getting header links -->
 <?php
 
-$header_links = new HeaderLinks('5');
+$header_links = new HeaderLinks(4);
 
 ?>
 <!-- End getting header links -->
