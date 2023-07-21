@@ -54,9 +54,6 @@ function get_header_menu(int $base_indent) {
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
 				<?php echo get_header_identity_link(); ?>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggle-menu" aria-controls="toggle-menu" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
 <!-- Begin get_header_menu -->
 <?php echo get_header_menu(5); ?>
 <!-- End get_header_menu -->
