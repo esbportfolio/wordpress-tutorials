@@ -57,11 +57,9 @@ function get_header_menu(int $base_indent) {
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggle-menu" aria-controls="toggle-menu" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="toggle-menu">
 <!-- Begin get_header_menu -->
 <?php echo get_header_menu(5); ?>
 <!-- End get_header_menu -->
-				</div>
 				</button>
 			</div>
 		</nav>
